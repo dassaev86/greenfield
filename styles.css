@@ -550,6 +550,10 @@ footer p:hover {
     align-items: flex-end;
 } */
 
+.certificaciones-imagenes {
+    padding-right: 0;
+}
+
 .certificaciones-certificacion {
     display: flex;
     flex-direction: row;
@@ -559,8 +563,8 @@ footer p:hover {
     align-items: center;
     margin-bottom: 35px;
     margin-right: 0;
+    /* background-color: yellow; */
 }
-
 
 .certificaciones-certificacion img:nth-child(1) {
     width: 70px;
@@ -581,6 +585,7 @@ footer p:hover {
     letter-spacing: -0.002em;
     color: #161616;
     padding-left: 38px;
+    width: 75%;
 }
 
 
